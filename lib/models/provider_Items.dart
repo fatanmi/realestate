@@ -42,6 +42,7 @@ class RoomItemList with ChangeNotifier {
 
   Colslide colorInitial = colorslide[0];
   void updateColor(int index) {
+  print("Testing gi branch");
     colorInitial = colorslide[index];
     notifyListeners();
   }
